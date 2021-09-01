@@ -14,7 +14,10 @@ const admin = require('firebase-admin');
 //     credential: admin.credential.cert(serviceAccount)
 // });
 
-admin.initializeApp();
+admin.initializeApp({
+    credential: admin.credential.applicationDefault()
+});
+
 
 const db = admin.firestore();
 

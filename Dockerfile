@@ -1,6 +1,6 @@
 FROM node:14
 
-ENV GOOGLE_APPLICATION_CREDENTIALS='./serviceAccount.json'
+# ENV GOOGLE_APPLICATION_CREDENTIALS='./serviceAccount.json'
 ENV PORT=8000
 ENV NODE_ENV=production
 
